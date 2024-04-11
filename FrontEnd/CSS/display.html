@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        *{
+            border: 1px solid red;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        p{
+            display: inline-block;
+            /* display: inline;  this wont work*/
+            width: 300px;
+        }
+        a{
+            display: inline-block; /* to give width */
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- display values : block, inline, inline-block, none  -->
+    <!-- inline elements can't be given fixed width -->
+    <!-- inline-bliock : can give fixed width/height -->
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <p>Lorem ipsum dolor sit.</p>
+    <span>Lorem, ipsum dolor.</span>
+    <span>Lorem ipsum dolor sit amet consectetur.</span>
+    <a href="#">click me</a>
+</body>
+</html>

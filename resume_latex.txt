@@ -1,0 +1,230 @@
+
+
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+    	{#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & \textbf{\small #2} \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & \textbf{\small #4}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	{\Huge \scshape Atul Kumar} \\ \vspace{1pt}
+	New Delhi \\ \vspace{1pt}
+	\small \raisebox{-0.1\height}\faPhone\ +91 8860930423 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{atulkashyap1907@gmail.com}} ~
+	\href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/atulkumar1907}}
+	\vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Hansraj College, University of Delhi}{August 2022 - June 2026}
+  	{  Bachelor's Degree, Computer Science (CGPA of 8.36)}{New Delhi, India}
+        
+	\resumeSubheading
+  	{Rajkiya Pratibha Vikas Vidyalaya}{April 2020 - March 2022}
+  	{  Class XII | CBSE (Percentage: 93.2)}{New Delhi, India}
+   \resumeSubheading
+  	{Govt. co-ed Sarvodaya Vidyalaya}{April 2018 - March 2020}
+  	{  Class X | CBSE (Percentage: 90)}{New Delhi, India}
+  \resumeSubHeadingListEnd
+
+  %-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Amazon [Make Sure to add terms like 15 as numbers more] }{Feb 2020 -- June 2020}
+  	{Software Development Engineer Intern}{Hyderabad, India}
+  	\resumeItemListStart
+    	\resumeItem{Created a backend + frontend internal tool to see all the statistics related to the Seller with edit functionality, this allowed us to track who made the changes and when. Adding this feature saved the manual hovering time of the SDE's over DB to find these things. On every task related to this, the SDE was saving on an average \textbf{15 minutes}. }
+    	\resumeItem{Wrote multiple API's for the team which returned the extracted data from DynamoDB by doing some computations on the basis of business requirement. These API's made the system more feature rich.}
+	\resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects [Clickable links and as short and crisp as possible, at max 2/3 projects]}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+      	{\textbf{Adography} $|$ \emph{Java Spring Boot, React Js, MySQL} $|$ {Clickable Link}}{January 2019}
+      	\resumeItemListStart
+        	\resumeItem{An interface which will given an option to search on the basis of fullName of regex in Ad, AdGroup and Campaign}
+        	\resumeItem{The search option allows the user to see all the matching results related to Ad, AdGroup and Campaign in a paginated way. On selection of any Ad, AdGroup, Campaign, the user is able to see further details.}
+      	\resumeItemListEnd
+	\vspace{-13pt}
+  	\resumeProjectHeading
+      	{\textbf{Camping Website} $|$ \emph{NodeJS, MongoDB and Express}  $|$ {Clickable Link}}{January 2019}
+      	\resumeItemListStart
+        	\resumeItem{An user interactive website which describes different campgrounds from different places and an authorised user can add a campground, edit or delete it using NodeJS, mongoDB and Express for back-end and HTML and CSS for front-end}
+      	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%
+%-----------Achievements-----------
+\section{Achievements [Add all kind of achievements that shows your skills]}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem{Ranked 1st in SIH'23 Internal Hackathon. }
+            \resumeItem{Solved more than 100+ problems on leetcode.}
+    	\resumeItem{Ranked under \textbf{xyz} at Codechef which ranks among the top sites for competitive programmers. Highest rating of 2299 and rated \textbf{6*}. }
+    	\resumeItem{Qualified the prestigious ACM-ICPC regionals \textbf{thrice} and ranked Z in one of the attempts. }
+    	\resumeItem{Secured all India rank of \textbf{r, s, t} respectively in Codechef's Long Challenge in the month of February, April and May xyzh among 12k+ participants.}
+    	\resumeItem{Secured all India rank of \textbf{uh} in TCS codevita 2019.}
+    	\resumeItem{Written over \textbf{0987643} articles at Geeksforgeeks, most of them being on Data Structure and Algorithms}
+    	\resumeItem{Awarded with Geek of the year accolade from GeeksforGeeks for contribution to the community. \href{https://www.geeksforgeeks.org/geek-of-the-year/}{(Link)} }
+  	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+ 
+ %
+%-----------Profile Links-----------
+\section{Profile Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem {\href{https://www.codechef.com/users/striver_79/}{Codechef}}
+    	\resumeItem {\href{https://codeforces.com/profile/striver_79}{Codeforces}}
+    	\resumeItem {\href{https://leetcode.com/striver_79/}{Leetcode}}
+    	\resumeItem {\href{https://auth.geeksforgeeks.org/user/Striver/articles}{GeeksforGeeks}}
+  	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills [Don't overflood here]}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{Languages}{: C++, HTML/CSS, JavaScript, MongoDB} \\
+ 	\textbf{Technologies/Frameworks/Libraries}{: ReactJS, Bootstrap, NodeJS, Express} \\
+        \textbf{Relevant Coursework}{: OOPS, Data Structures, Design and Analysis of Algorithm, Operating System, Computer Networks, Database Management System, } \\
+  
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
+
+
+re

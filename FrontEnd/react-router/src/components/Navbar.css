@@ -1,0 +1,14 @@
+nav{
+    background-color: lightpink;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.link{
+    margin: 15px;
+   text-decoration: none;
+}
+
+/* nav a.active{
+    color: green;
+} */
